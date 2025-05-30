@@ -1,0 +1,36 @@
+# Ignoriraj video datoteke
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Ignoriraj 3D modele
+*.glb
+*.gltf
+*.fbx
+*.obj
+
+# Ignoriraj optimizirane slike (ako ih imaš puno lokalno)
+*.webp
+
+# Ignoriraj sistemske i editorske datoteke
+.DS_Store
+Thumbs.db
+
+# Ignoriraj node_modules ako koristiš Node.js
+node_modules/
+
+# Ignoriraj build direktorije
+dist/
+build/
+
+# Netlify folder (ako postoji)
+.netlify/
+
+# Local env files
+.env
+.env.local
+
+# Ignore large binary files
+assets/video/*.mp4
+assets/models/*.glb

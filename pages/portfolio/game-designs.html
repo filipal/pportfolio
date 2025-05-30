@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileImage" content="assets/images/pp-logo-270x270.png">
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/images/pp-logo-32x32.png" sizes="32x32">
+    <link rel="icon" href="/assets/images/pp-logo-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/assets/images/pp-logo-180x180.png">
+
+    <!-- Open Graph meta tagovi -->
+    <meta property="og:title" content="Paula Panijan - Game Art & Design Portfolio">
+    <meta property="og:description" content="Portfolio radova iz game art & designa. Modeliranje, teksturisanje i 3D grafika.">
+    <meta property="og:image" content="https://mojastranica.com/images/preview.jpg">
+    <meta property="og:url" content="https://mojastranica.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Paula Panijan Portfolio">
+
+    <!-- DNS Prefetch za brže učitavanje eksternih resursa -->
+    <link rel="dns-prefetch" href="http://cdn.jsdelivr.net/" />
+
+    <title>Paula Panijan | Game Design</title>
+    
+    <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<link rel='stylesheet' id='contact-form-7-css' href='/assets/css/contact-form-7.css' type='text/css' media='all'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/common2.css"/>
+<link rel="stylesheet" id="slider-css" href="/assets/css/slider.css" type="text/css" media="all">
+<link rel='stylesheet' href='/assets/css/moj_1.css' type='text/css' media='all'>
+
+<link rel='stylesheet' id='all-css' href='/assets/css/all.css' type='text/css' media='all'> <!-- Glavni CSS -->
+<link rel='stylesheet' id='mediass-css' href='/assets/css/media.css' type='text/css' media='all'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="ball"></div>
+    <div class="cursor"></div>
+    <!-- Navigacijski bar sa logom -->
+    <header class="header">
+        <div class="header__desktop container">
+            <a href="/index.html" class="logo gsap_anima">
+                <img src="/assets/images/logo.png" alt="logo" />
+            </a>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html" class="navigation__link">Main</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html#about" class="navigation__link">About Me</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html#skills" class="navigation__link">My Skills</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a class="sevicesBtn navigation__link">Portfolio</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html#contact" class="navigation__link">Contact </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger_services">
+                <div class="container burger_services__inner">
+                    <ul class="services__list">
+                        <li>
+                            <a href="/pages/portfolio/character-art.html">Character Art</a>
+                        </li>
+                        <li>
+                            <a href="/pages/portfolio/environment-art.html">Environment Art</a>
+                        </li>
+                        <li>
+                            <a href="/pages/portfolio/game-designs.html">Game Designs</a>
+                        </li>
+                        <li>
+                            <a href="/pages/portfolio/sketchbook.html">SketchBook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__mobile">
+            <div class="container">
+                <a href="/index.html" class="logo logo__mobile">
+                    <img src="/assets/images/logo.png" alt="logo" />
+                </a>
+                <button class="menu close btn-hover">
+                    <svg width="40" height="40" viewBox="0 0 100 100">
+                        <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+                        <path class="line line2" d="M 20,50 H 80"></path>
+                        <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+                    </svg>
+                </button>
+                <div class="burger close">
+                    <div class="burger__inner">
+                        <ul class="navigation__list burger__list">
+                            <li class="navigation__item burger__item">
+                                <a href="/index.html" class="navigation__link">Main</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/index.html#about" class="navigation__link">About Me</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/index.html#skills" class="navigation__link">My Skills</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a class="navigation__link">Portfolio</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/contact/index.html" class="navigation__link">Contact </a>
+                            </li>
+                        </ul>
+                        <ul class="navigation__list">
+                            <li class="navigation__item burger__item">                           
+								<a href="/pages/portfolio/character-art.html" class="navigation__link">Character Art</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/pages/portfolio/environment-art.html" class="navigation__link">Environment Art</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/pages/portfolio/game-designs.html" class="navigation__link">Game Designs</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/pages/portfolio/sketchbook.html" class="navigation__link">SketchBook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="burger__bg"></div>
+            </div>
+        </div>
+    </header>
+    <!-- popup kontakt forma -->
+    <div class="popup">
+    <div class="popup__inner">
+        <div class="closePopup btn-hover">
+        <img src="/assets/images/close-popup.svg" alt="" />
+        </div>
+        <h3 class="popup__title">Fill out the form to get in touch with me directly!</h3>
+        <p class="popup__text"></p>
+        <div class="form__wrap">
+        <div class="wpcf7 no-js" id="wpcf7-f81-o1" lang="en" dir="ltr">
+            <div class="screen-reader-response">
+            <p role="status" aria-live="polite" aria-atomic="true"></p>
+            <ul></ul>
+            </div>
+            <form action="mailto:ppanijan@gmail.com" method="post" 
+                class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+            <div style="display: none;">
+                <input type="hidden" name="_wpcf7" value="81" />
+                <input type="hidden" name="_wpcf7_version" value="5.8.5" />
+                <input type="hidden" name="_wpcf7_locale" value="en" />
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f81-o1" />
+                <input type="hidden" name="_wpcf7_container_post" value="0" />
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+            </div>
+            <div class="form__top">
+                <p>
+                <span class="wpcf7-form-control-wrap" data-name="nameItem">
+                    <input 
+                    size="40" 
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input letters" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your name" 
+                    value="" 
+                    type="text" 
+                    name="nameItem" 
+                    required
+                    />
+                </span>
+                <br />
+                <span class="wpcf7-form-control-wrap" data-name="emeilItem">
+                    <input 
+                    size="40" 
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your email" 
+                    value="" 
+                    type="text" 
+                    name="emeilItem" 
+                    required
+                    />
+                </span>
+                </p>
+            </div>
+            <p>
+                <span class="wpcf7-form-control-wrap" data-name="telItem">
+                <input 
+                    size="40" 
+                    class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel form__input numbers" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your phone number" 
+                    value="" 
+                    type="tel" 
+                    name="telItem" 
+                    required
+                />
+                </span>
+                <br />
+                <span class="wpcf7-form-control-wrap" data-name="messageItem">
+                <textarea 
+                    cols="40" 
+                    rows="10" 
+                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form__textarea" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your message" 
+                    name="messageItem" 
+                    required
+                ></textarea>
+                </span>
+                <br />
+                <input 
+                class="wpcf7-form-control wpcf7-submit has-spinner cf7btn" 
+                type="submit" 
+                value="Send" 
+                />
+            </p>
+            <div class="wpcf7-response-output" aria-hidden="true"></div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="imageOverlay" class="image-overlay">
+        <img id="overlayImage" src="" alt="Zoomed Image">
+    </div>
+
+<!-- početak Character Art sa tekstom u slici -->
+<main class="main portfolio">
+    <section class="hero-portfolioa">
+        <div class="container hero-portfolioa__inner">
+            <div class="KoAfol">
+                <img 
+                  src="/assets/images/portfolio-3.png" 
+                  alt="Game Design" 
+                  loading="lazy" 
+                  decoding="async" />
+            <div class="tYQ4dP">
+                <h2 class="portfolio__titleca title-white">Game Design</h2>
+            </div>
+            </div>
+            <p class="hero-portfolio__text">
+
+            </p>
+        </div>
+        <div class="hero__logo openPopup btn-hover">
+            <img class="hero__logo-bg" src="/assets/images/hero-loro-bg.png" alt="" />
+            <img class="hero__logo-content" src="/assets/images/hero-logo.png.webp" alt="" />
+        </div>
+    </section>
+
+    <section>
+        <!-- WORK -->
+        <div class="work-section-bstcontainer">
+            <div class="bstcontainer">
+                <div class="work-section-contents">
+                    <div class="row">
+                        <!-- 🔹 PRVI ELEMENT -->
+                        <div class="col-12 col-md-6 mb-5" style="margin-bottom: 3rem;">
+                            <div class="work-item-bstcontainer">
+                                <div class="work-item">
+                                    <div class="work-item-bg with-video" onclick="scrollToSection(event, 'portfolio-1')"
+                                        style="position: relative; width: 552px; height: 347px; overflow: hidden;">
+                                    <img src="../../assets/images/Spellbound.png"
+                                        alt="Spellbound"
+                                        style="width: 552px; height: 347px; object-fit: cover; position: absolute; top: 0; left: 0; pointer-events: none;" />
+                                    </div>
+                                    <div class="work-item-title-bstcontainer">
+                                        <div class="work-item-title">
+                                            <span class="title-white">SpellBound Game Level</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="work-item-tags-bstcontainer">
+                                    <div class="work-item-tag" style="background-color: #0f579f">
+                                        <span>Zbrush</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #a60b0b">
+                                        <span>Maya</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #813772">
+                                        <span>Substance Painter</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #813772">
+                                        <span>university</span>
+                                    </div>
+                                </div> -->
+                                <div class="work-item-info-bstcontainer">
+                                    <div class="work-item-desc">
+                                        <span class="work-item-desc-span">SpellBound Game Level</span>
+                                    </div>
+                                    <table class="work-item-desc" style="margin: auto;">
+                                <!-- Static row -->
+                                        <tr>
+                                            <td class="work-item-contrib-cell"></td>
+                                            <!-- <td class="work-item-contrib-cell-bold">My contributions:</td> -->
+                                        </tr>
+                                        <!-- User items -->
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Unity</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">PaintToolSai</td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Maya - Retopology</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Poly Count: 18174</td>
+                                        </tr> -->
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Date: 2024</td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">dodatna stavka po želji</td>
+                                        </tr> -->
+                                    </table>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                    <div class="accordion-header accordion-header-span" onclick="toggleAccordion(this)">
+                                        <span>📌 Concept Sketches</span>
+                                        <span class="icon">+</span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <div class="model-placeholder-gallery">
+                                            <img src="/assets/images/conceptSketch1.png" alt="" />
+                                            <img src="/assets/images/conceptSketch2.png" alt="" />
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        <span>🛡 Description</span>
+                                        <span class="icon">+</span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p>Short game level, created in Unity 2D. I created all the visual assets, code and animations. The audio is sourced online.</p><br>
+                                        <p>Inspiration is Balkan Mythology</p>
+                                        <!-- <br>
+                                        <p>High poly in Zbrush, retopologized in Maya and textured in Substance Painter</p>
+                                        <br>
+                                        <p>Poly Count: 18174</p>
+                                        <br>
+                                        <p>Date: 2024</p> -->
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 🔹 DRUGI ELEMENT -->
+                        <div class="col-12 col-md-6 mb-5" style="margin-bottom: 3rem;">
+                            <div class="work-item-bstcontainer">
+                                <div class="work-item">
+                                    <div class="work-item-bg with-video" onclick="scrollToSection(event, 'portfolio-2')"
+                                        style="position: relative; width: 552px; height: 347px; overflow: hidden;">
+                                    <video autoplay muted loop playsinline
+                                            style="width: 552px; height: 347px; object-fit: cover; position: absolute; top: 0; left: 0; pointer-events: none;">
+                                        <source src="https://f003.backblazeb2.com/file/pportfolio/video/Creature.mp4" type="video/mp4"/>
+                                    </video>
+                                    </div>
+                                    <div class="work-item-title-bstcontainer">
+                                        <div class="work-item-title">
+                                            <span class="title-white">Creature Model</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="work-item-tags-bstcontainer">
+                                    <div class="work-item-tag" style="background-color: #0f579f">
+                                        <span>Zbrush</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #007AFF">
+                                        <span>Substance Painter</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #813772">
+                                        <span>Maya</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #813772">
+                                        <span>Unity</span>
+                                    </div>
+                                    <div class="work-item-tag" style="background-color: #813772">
+                                        <span>university</span>
+                                    </div>
+                                </div> -->
+                                <div class="work-item-info-bstcontainer">
+                                    <div class="work-item-desc">
+                                        <span class="work-item-desc-span">Creature Model</span>
+                                    </div>
+                                    <table class="work-item-desc" style="margin: auto;">
+                                        <!-- Static row -->
+                                        <tr>
+                                            <td class="work-item-contrib-cell"></td>
+                                            <!-- <td class="work-item-contrib-cell-bold">My contributions:</td> -->
+                                        </tr>
+                                        <!-- User items -->
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Zbrush - High poly model, Maya - Retopology</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Substance Painter - Texturing</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Date: 2025</td>
+                                        </tr>
+                                        <!-- <tr>
+                                            <td class="work-item-contrib-cell"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                            <td class="work-item-contrib-cell">Public representation</td>
+                                        </tr> -->
+                                    </table>
+                                </div>
+                                
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        <span>📌 Low poly Model</span>
+                                        <span class="icon">+</span>
+                                    </div>
+                                    <div class="accordion-content">
+                                    <model-viewer
+                                        src="/assets/models/Creature.glb"
+                                        alt="Khanivore 3D model"
+                                        auto-rotate
+                                        camera-controls
+                                        style="width: 100%; height: 400px; background: #111; border-radius: 6px;">
+                                    </model-viewer>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                                        <span>🛡 Description</span>
+                                        <span class="icon">+</span>
+                                    </div>
+                                    <div class="accordion-content">
+                                        <p>Character model from the 'Creature Feature' VR game that was a part of a team project. I created the concept art for the creature and then the model itself. The textures and the model were made to be low poly so that the VR headsets could handle the game.</p><br />
+                                        <p><span class="highlight-note">Note:</span> The project won First Prize for Aesthetic production at the 
+                                            “Shaping the Future of Immersive Technologies in Education” Student competition in Athlone Ireland.</p><br />
+                                        <!-- <p>PolyCount: 4348</p><br />
+                                        <p>Date: 2025</p> -->
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of WORK -->
+    </section>
+
+    
+    <!-- SpellBound Game Level -->
+
+    <section class="gallery" id="portfolio-1">
+        <div class="gellery__inner">
+            <div class="container gallery__top">
+                <h3 class="title">
+                    <span class="title-white">SpellBound</span> Game Level
+                </h3>
+                <div class="container">
+                    <div class="news__content">
+                        <!-- Video -->
+                        <div class="news__item">
+                            <div class="news__img">
+                                <video
+                                    src="https://f003.backblazeb2.com/file/pportfolio/video/Spellbound.mp4"
+                                    controls
+                                    playsinline
+                                    preload="auto"
+                                    width="640"
+                                    height="360">
+                                </video>
+                            </div> <!-- news__img -->
+                            <!-- Ikone ispod videa -->
+                            <!-- <div class="work-item-tags-container">
+                                <div class="work-item-tag" style="background-color: #0f579f">
+                                    <span>zbrush</span>
+                                </div>
+                                <div class="work-item-tag" style="background-color: #a60b0b">
+                                    <span>maya</span>
+                                </div>
+                                <div class="work-item-tag" style="background-color: #813772">
+                                    <span>substance painter</span>
+                                </div>
+                                <div class="work-item-tag" style="background-color: #813772">
+                                    <span>university</span>
+                                </div> -->
+                            <!--</div>  work-item-tags-container -->
+                            <div class="clearfix"></div>
+                            <div class="news__text">
+                                <!-- <p>
+                                    Final model as accurate to the concept art of the creature as I could make it
+                                </p> -->
+                            </div> <!-- news__text -->
+                        </div> <!-- news__item -->
+                        <div class="news__itemrg">
+                            <div class="news__imgrg">
+                                <!-- Naziv desno od videa -->
+                                <div class="portfolio__item-left text-center">
+                                    <h4>SpellBound Game Level</h4>
+                                </div>
+                                <!-- <div class="portfolio__item-left text-center" style="color: white;">
+                                    <h3>from Love Death and Robots</h3>
+                                </div> -->
+                                <!-- Tabela ispod naziva -->
+                                <div class="pp-facts-container">
+                                    <table style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Project Type</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">University / individual project</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Software Used</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">Unity, PaintToolSai</td>
+                                            </tr>
+                                            <tr>
+                                                <!-- <td class="pp-facts-cell">
+                                                    <strong>Software Used</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">Zbrush, Maya, Substance Painter</td>
+                                            </tr> -->
+                                            <!-- <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Primary Role(s)</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">Gameplay programming</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div> <!-- pp-facts-container" -->
+                                <!-- Highlights ispod -->
+                                <div class="work-item-desc-container">
+                                    <table class="work-item-desc" style="margin: auto;">
+                                        <tbody>
+                                            <!-- <tr>
+                                                <td class="work-item-contrib-cell"></td>
+                                                <td class="work-item-contrib-cell">Highlights:</td>
+                                            </tr> -->
+                                            <!-- User items -->
+                                            <!-- <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">My first character model</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">Individual project</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">Model needs to be rigged but is otherwise game ready</td>
+                                            </tr> -->
+                                            <!-- <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">koristila sam...</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div> <!-- work-item-desc-container -->
+                            </div> <!-- news__img -->
+                        </div> <!-- news__item -->
+                    </div> <!-- news__content -->
+                </div> <!-- container -->
+            </div> <!-- container gallery__top -->
+            <!-- slike -->
+            <div class="gallery__bottom">
+            </div> <!-- gallery__bottom -->
+        </div> <!-- gellery__inner -->
+    </section>
+
+    <section>
+        <div class="title-r">
+            <div class="form__content">
+                <h3 class="title-white title form__title">
+                Assets
+                </h3>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="custom-slider _2p9iMF">
+                <div class="wQUaYj">
+                    <div class="ErMs6U">
+                        <img id="main-slide" class="main-slide" src="/assets/images/babaYagaHouse.png" alt="Main" />
+                    </div>
+                </div>
+                <div class="rk347Z AHAFQn" id="thumbnails">
+                    <div class="zXBoYT IvMxfA"><img src="/assets/images/babaYagaHouse.png" alt="Thumb 1" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/Background Sprites.png" alt="Thumb 2" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/Clouds.png" alt="Thumb 3" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/Gates.png" alt="Thumb 4" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/Granny.png" alt="Thumb 5" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/House.png" alt="Thumb 6" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/Mountains.png" alt="Thumb 7" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/Tree.png" alt="Thumb 8" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/2024-03-03Player.png" alt="Thumb 9" /></div>                    
+                    <div class="zXBoYT"><img src="/assets/images/2024-03-25 NPC.png" alt="Thumb 10" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/2024-03-25 plants.png" alt="Thumb 11" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/2024-15-03.png" alt="Thumb 12" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/2024-15-03.png" alt="Thumb 12" /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pureRef-section">
+        <div class="title-r">
+            <div class="form__content">
+                <h3 class="title-white title form__title">
+                    Sketches
+                </h3>
+            </div>
+        </div>
+        <div class="pureRef-grid">
+            <img src="/assets/images/conceptSketch2.png" alt="Sketch 1">
+            <img src="/assets/images/conceptSketch1.png" alt="Sketch 2">
+            <!-- <img src="/assets/images/PureRef3.png" alt="Reference Images"> -->
+        </div>
+    </section>
+
+
+    <!-- Creature Feature Model -->
+
+    <section class="gallery" id="portfolio-2">
+        <div class="gellery__inner">
+            <div class="container gallery__top">
+                <h3 class="title">
+                    <span class="title-white">Creature</span> Model
+                </h3>
+                <div class="container">
+                    <div class="news__content">
+                        <!-- Video -->
+                        <div class="news__item">
+                            <div class="news__img">
+                                <video
+                                    src="https://f003.backblazeb2.com/file/pportfolio/video/CreatureFeatureGameDemo.mp4"
+                                    controls
+                                    playsinline
+                                    preload="auto"
+                                    width="640"
+                                    height="360">
+                                </video>
+                            </div> <!-- news__img -->
+                            <!-- Ikone ispod videa -->
+                            <!-- <div class="work-item-tags-container">
+                                <div class="work-item-tag" style="background-color: #0f579f">
+                                    <span>zbrush</span>
+                                </div>
+                                <div class="work-item-tag" style="background-color: #a60b0b">
+                                    <span>maya</span>
+                                </div>
+                                <div class="work-item-tag" style="background-color: #813772">
+                                    <span>substance painter</span>
+                                </div>
+                                <div class="work-item-tag" style="background-color: #813772">
+                                    <span>university</span>
+                                </div> -->
+                            <!--</div>  work-item-tags-container -->
+                            <div class="clearfix"></div>
+                            <div class="news__text">
+                                <!-- <p>
+                                    Final model as accurate to the concept art of the creature as I could make it
+                                </p> -->
+                            </div> <!-- news__text -->
+                        </div> <!-- news__item -->
+                        <div class="news__itemrg">
+                            <div class="news__imgrg">
+                                <!-- Naziv desno od videa -->
+                                <div class="portfolio__item-left text-center">
+                                    <h4>Creature Model</h4>
+                                </div>
+                                <div class="portfolio__item-left text-center" style="color: white;">
+                                </div>
+                                <!-- Tabela ispod naziva -->
+                                <div class="pp-facts-container">
+                                    <table style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Project Type</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">University / Team Project</td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Software Used</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">Unreal Engine 4</td>
+                                            </tr> -->
+                                            <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Software Used</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">Zbrush, Maya, Substance Painter</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pp-facts-cell">
+                                                    <strong>Primary Role(s)</strong>
+                                                </td>
+                                                <td class="pp-facts-cell">Created everything related to<br/> the character model</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div> <!-- pp-facts-container" -->
+                                <!-- Highlights ispod -->
+                                <div class="work-item-desc-container">
+                                    <table class="work-item-desc" style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"></td>
+                                                <td class="work-item-contrib-cell">Highlights:</td>
+                                            </tr>
+                                            <!-- User items -->
+                                            <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">Final game won an Aesthetics award</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">Had multiple tasks within the game itself </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">Auto rigged</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell">
+                                                    <i class="fas fa-check" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="work-item-contrib-cell">Overall work time: 5 hours</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div> <!-- work-item-desc-container -->
+                            </div> <!-- news__img -->
+                        </div> <!-- news__item -->
+                    </div> <!-- news__content -->
+                </div> <!-- container -->
+            </div> <!-- container gallery__top -->
+            <!-- slike -->
+            <div class="gallery__bottom">
+            </div> <!-- gallery__bottom -->
+        </div> <!-- gellery__inner -->
+    </section>
+
+    <section>
+        <div class="title-r">
+            <div class="form__content">
+                <h3 class="title-white title form__title">
+                High poly model
+                </h3>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="custom-slider _2p9iMF">
+                <div class="wQUaYj">
+                    <div class="ErMs6U">
+                        <img id="main-slide" class="main-slide" src="/assets/images/CreatureFront.png" alt="Main" />
+                    </div>
+                </div>
+                <div class="rk347Z AHAFQn" id="thumbnails">
+                    <div class="zXBoYT IvMxfA"><img src="/assets/images/CreatureFront.png" alt="Thumb 1" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/CreatureBack.png" alt="Thumb 2" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/CreatureHeadFront.png" alt="Thumb 3" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/CreatureHeadSide.png" alt="Thumb 4" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/CreatureSide.png" alt="Thumb 5" /></div>
+                    <!-- <div class="zXBoYT"><img src="/assets/images/CreatureApple.png" alt="Thumb 6" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/CreatureCherry.png" alt="Thumb 7" /></div>
+                    <div class="zXBoYT"><img src="/assets/images/CreatureBerry.png" alt="Thumb 8" /></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="gallery__bottom">  
+        <div class="title-r">
+            <div class="form__content">
+                <h3 class="title-white title form__title">
+                    WireFrame
+                </h3>
+            </div>
+        </div>
+        </div>
+
+        <div class="custom-slider-vertical">
+            <div class="wQUaYj">
+                <div class="NKh7Nc YM7hza slider-prev"><img src="/assets/images/chevron-left.svg" alt="chevron-left" width="20"
+                        height="20" /></div>
+                <div class="cDyDjQ eBZmcg slider-next"><img src="/assets/images/chevron-right.svg" alt="chevron-right"
+                        width="20" height="20" /></div>
+                <div class="ErMs6U RfnKDB">
+                    <img class="main-slide" src="/assets/images/CreatureFront_wf.png" alt="Main" />
+                </div>
+            </div>
+            <div class="rk347Z AHAFQn thumbnails-row">
+                <div class="zXBoYT IvMxfA RfnKDB"><img src="/assets/images/CreatureFront_wf.png" alt="Thumb 1" /></div>
+                <div class="zXBoYT RfnKDB"><img src="/assets/images/CreatureSide_wf.png" alt="Thumb 2" /></div>
+                <div class="zXBoYT RfnKDB"><img src="/assets/images/CreatureBack_wf.png" alt="Thumb 3" /></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="gallery__big">
+            <img src="#" alt="">
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__item">
+                <a href="index.html" class="footer__logo">
+                    <img src="/assets/images/logo.png.webp" alt="" />
+                </a>
+                <a class="footer__link" href="mailto:ppanijan@gmail.com">ppanijan@gmail.com</a>
+                <p>
+                    Clonmel, IRELAND<br />
+                </p>
+            </div>
+            <div class="footer__item footer__nav">
+                <p>Exploring My World</p>
+                <a href="index.html" class="footer__link">Main</a>
+                <a href="/index.html#about" class="footer__link">About Me</a>
+                <a href="/index.html#skills" class="footer__link">My Skills</a>
+                <a href="/index.html#portfolio" class="footer__link">Portfolio</a>
+                <a href="/index.html#contact" class="footer__link">Contact</a>
+                <a href="/index.html#art_action" class="footer__link">Game Art in Action</a>
+            </div>
+            <div class="footer__item">
+                <p>Portfolio</p>
+                <a href="/pages/portfolio/character-art.html">Character Art</a>
+                <a href="/pages/portfolio/environment-art.html">Environment Art</a>
+                <a href="/pages/portfolio/game-designs.html">Game Designs</a>
+                <a href="/pages/portfolio/sketchbook.html">SketchBook</a>
+            </div>
+            <div class="footer__item">
+                <p>©2025 All rights reserved. Paula Panijan</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" id="no-right-click-images-admin-js-extra">
+/* <![CDATA[ */
+var nrci_opts = {"gesture":"0","drag":"0","touch":"0","admin":"0"};
+/* ]]> */
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="/assets/js/no-right-click-images-frontend.js" id="no-right-click-images-admin-js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-1.11.3.min.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+<script src="https://unpkg.com/imask"></script>
+<script src="/assets/js/SmoothScroll.js"></script>
+<script src="/assets/js/blocks.js"></script>
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+<!-- xxx -->
+</html>

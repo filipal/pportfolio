@@ -1,0 +1,1116 @@
+
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<meta name="application-name" content="Leartes Studios"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="Leartes Studios - Game Art Outsourcing Studio"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="msapplication-TileColor" content="#2B5797"/>
+<meta name="msapplication-tap-highlight" content="no"/>
+<meta name="theme-color" content="#000000"/><link rel="apple-touch-icon" href="/touch-icon-iphone.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/touch-icon-iphone-retina.png"/>
+<link rel="apple-touch-icon" sizes="167x167" href="/touch-icon-ipad-retina.png"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://leartesstudios.com"/>
+<meta name="twitter:title" content="Leartes Studios - Game Art Outsourcing Studio"/>
+<meta name="twitter:description" content="Leartes Studios, a world-renowned game art outsourcing studio, transforms your gaming vision into reality with our high-quality game art outsourcing services."/>
+<meta name="twitter:image" content="https://leartesstudios.com/android-chrome-512x512.png"/>
+<meta name="twitter:creator" content="@LeartesStudios"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Leartes Studios - Game Art Outsourcing Studio"/>
+<meta property="og:description" content="Leartes Studios, a world-renowned game art outsourcing studio, transforms your gaming vision into reality with our high-quality game art outsourcing services."/>
+<meta property="og:site_name" content="Leartes Studios"/>
+<meta property="og:url" content="https://leartesstudios.com"/>
+<meta property="og:image" content="https://leartesstudios.com/apple-touch-icon.png"/>
+<title>Mythical Volcano Village Megapack - Leartes Studios</title>
+<meta name="description" content="Explore Leartes Studios&#x27; Mythical Volcano Village Megapack: Nanite meshes, modular buildings with packed-level actors. Hero assets, statues, and more."/>
+<meta property="og:description" content="Explore Leartes Studios&#x27; Mythical Volcano Village Megapack: Nanite meshes, modular buildings with packed-level actors. Hero assets, statues, and more."/>
+<link rel="canonical" href="https://leartesstudios.com/mythical-volcano-village-megapack"/>
+<meta property="og:title" content="Mythical Volcano Village Megapack - Leartes Studios"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.7a203a78.webp&amp;w=1920&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.7a203a78.webp&amp;w=3840&amp;q=75 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=3840&amp;q=100 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=3840&amp;q=100 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=3840&amp;q=100 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2456ba9e.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=3840&amp;q=100 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.a227eee0.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.238467ea.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.0221197d.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=3840&amp;q=100 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=3840&amp;q=100 2x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.34ba41a2.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.6a0cf4b0.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.3066a5ad.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<link rel="preload" as="image" imageSrcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.cf8ed6cc.webp&amp;w=3840&amp;q=100 1x" fetchpriority="high"/>
+<meta name="next-head-count" content="50"/>
+<link rel="preload" href="/_next/static/media/b86d1bbbcebb7523-s.p.otf" as="font" type="font/otf" crossorigin="anonymous" data-next-font="size-adjust"/>
+<link rel="preload" href="/_next/static/media/154cabf018a0712d-s.p.otf" as="font" type="font/otf" crossorigin="anonymous" data-next-font="size-adjust"/>
+<link rel="preload" href="/_next/static/media/78bc1972ef1f2b18-s.p.otf" as="font" type="font/otf" crossorigin="anonymous" data-next-font="size-adjust"/>
+<link rel="preload" href="/_next/static/media/0e687aea4f6a7575-s.p.otf" as="font" type="font/otf" crossorigin="anonymous" data-next-font="size-adjust"/>
+<link rel="preload" href="/_next/static/css/b96d08fe5338a511.css" as="style"/>
+<link rel="stylesheet" href="/_next/static/css/b96d08fe5338a511.css" data-n-g=""/>
+<link rel="preload" href="/_next/static/css/0e569a65f183509e.css" as="style"/>
+<link rel="stylesheet" href="/_next/static/css/0e569a65f183509e.css" data-n-p=""/>
+
+<noscript data-n-css=""></noscript>
+<script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+<script src="/_next/static/chunks/webpack-69e65e26a335c312.js" defer=""></script>
+<script src="/_next/static/chunks/framework-3671d8951bf44e4e.js" defer=""></script>
+<script src="/_next/static/chunks/main-471556e67a335ad2.js" defer=""></script>
+<script src="/_next/static/chunks/pages/_app-e285931e968eb7a6.js" defer=""></script>
+<script src="/_next/static/chunks/pages/mythical-volcano-village-megapack-b0db63389a88e3d0.js" defer=""></script>
+<script src="/_next/static/OcOabf82QqUixJlbj9oI2/_buildManifest.js" defer=""></script>
+<script src="/_next/static/OcOabf82QqUixJlbj9oI2/_ssgManifest.js" defer=""></script>
+</head>
+
+<body>
+<div id="__next">
+<div class="o9GQyF">
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://px.ads.linkedin.com/collect/?pid=5692433&amp;fmt=gif"/></noscript>
+<div class="layout">
+<div class="y1DGXL">
+<div class="IryseH">
+</div>
+<div class="container _2civnv">
+<div class="aBponI">
+<a href="/"><img alt="leartes" loading="lazy" width="159" height="50" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/logo-with-title.525779ef.svg"/>
+</a>
+</div>
+<div class="RdXrjd">
+<div>
+      <ul class="container">
+            <li>
+            <div class="nVJ_l1 container">
+                  <div class="d-flex">
+                  <a href="/">Home</a>
+                  </div>
+                  </div>
+            </li>
+            <li>
+            <div class="nVJ_l1 container">
+            <div class="d-flex">
+            <p class="YTftcw">
+            <span>Services</span>
+            <img alt="close button" loading="lazy" width="12" height="12" decoding="async" data-nimg="1" class="_9H9ebR" style="color:transparent" src="/_next/static/media/cross.49ee0743.svg"/>
+            </p>
+            </div>
+            <ul class="q5kIxu">
+            <li class="nVJ_l1">
+            <a href="/services/3d-environment-design">3D Environment Design</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/services/3d-modeling">3D Modeling</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/services/3d-character-design">3D Character Design</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/services/3d-materials-and-textures">3D Materials And Textures</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/services/game-level-art">Game Level Art</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/services/game-lighting">Game Lighting</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/services/2d-concept-art">2D Concept Art</a>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li>
+            <div class="nVJ_l1 container">
+            <div class="d-flex">
+            <a href="/portfolio">Portfolio</a>
+            </div>
+            </div>
+            </li>
+            <li>
+            <div class="nVJ_l1 container">
+            <div class="d-flex">
+            <a href="/marketplaces">Marketplaces</a>
+            </div>
+            </div>
+            </li>
+            <li>
+            <div class="nVJ_l1 container">
+            <div class="d-flex">
+            <p class="YTftcw">
+            <span>Learning</span>
+            <img alt="close button" loading="lazy" width="12" height="12" decoding="async" data-nimg="1" class="_9H9ebR" style="color:transparent" src="/_next/static/media/cross.49ee0743.svg"/>
+            </p>
+            </div>
+            <ul class="q5kIxu">
+            <li class="nVJ_l1">
+            <a href="/education">Education</a>
+            </li>
+            <li class="nVJ_l1">
+            <a href="/courses">Courses</a>
+            </li>
+            <li class="nVJ_l1">
+            <p class="YTftcw">
+            <span>Tutorials</span>
+            <img alt="close button" loading="lazy" width="12" height="12" decoding="async" data-nimg="1" class="_9H9ebR" style="color:transparent" src="/_next/static/media/cross.49ee0743.svg"/>
+            </p>
+            <ul class="q5kIxu pmfIOo">
+            <li>
+            <a href="/tutorials/udemy">Udemy</a>
+            </li>
+            <li>
+            <a href="/tutorials/cosmos">Cosmos</a>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </div>
+            </li>
+            <li>
+            <div class="nVJ_l1 container">
+            <div class="d-flex">
+            <a href="/about">About</a>
+            </div>
+            </div>
+            </li>
+            <li>
+            <div class="nVJ_l1 container">
+            <div class="d-flex">
+            <a href="/contact">Contact</a>
+            </div>
+            </div>
+            </li>
+            <li class="Phe6O7">
+            <div class="container d-flex">
+            <a href="/cosmos">
+            <img alt="cosmos" loading="lazy" width="95" height="21" decoding="async" data-nimg="1" class="_6tqG9a" style="color:transparent" src="/_next/static/media/cosmos.74894cb9.svg"/>
+            </a>
+            </div>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <div class="_8OWOuM">
+            <div class="QgQvV0">
+            <img alt="search" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/search.077b2ac0.svg"/>
+            </div>
+            <div class="_LrG4o">
+            <div class="reAgRI">
+            </div>
+            <div class="reAgRI">
+            </div>
+            <div class="reAgRI">
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="content">
+            <div class="p05Yf2">
+            <div class="CGI3Is">
+            <div class="a_5XJx">
+            <img alt="video-cover" fetchpriority="high" width="1509" height="845" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 4&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3CfeComponentTransfer%3E%3CfeFuncA type=&#x27;discrete&#x27; tableValues=&#x27;1 1&#x27;/%3E%3C/feComponentTransfer%3E%%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/jpeg;base64,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&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.7a203a78.webp&amp;w=1920&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.7a203a78.webp&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero2.7a203a78.webp&amp;w=3840&amp;q=75"/>
+            <div class="MCjQIs">
+            </div>
+            <div class="Eo8sYy">
+            <h1>MYTHICAL VOLCANO VILLAGE</h1>
+            <h2>MEGAPACK</h2>
+            <a target="_blank" href="https://cosmos.leartesstudios.com/products/mythical-volcano-village" rel="noreferrer">
+            <div class="keh_Rs Fi_hpN">Buy Pack</div>
+            </a>
+            </div>
+            </div>
+            </div>
+            <div class="D4_gao">
+            <div class="container mb-5 mt-5 GmEpVX">
+            <div class="row">
+            <div class="col-lg-10 offset-lg-1  mt-5">
+            <p class="cKuDlP">Introducing our new big pack, and get ready to push your Ancient-themed projects to the top with the Mythical Volcano Village Megapack. This high-quality asset pack is designed to bring a mythical and immersive atmosphere right into the heart of your Unreal Engine projects. Think of a place where mystical dragons soar the skies, magnificent statues of ancient gods and heroes tower over the landscape, and vibrant colored streets find their way through bustling markets onto the sacred grounds.</p>
+            <p class="cKuDlP">The Mythical Volcano Village Megapack features more than 200+ unique meshes of everything one might need to create a breathtaking environment: from very detailed temples and sacred volcano-side shrines to grand temples and ornately carved buildings, this pack immerses one in the feeling of a mythical civilization flourishing around a mighty volcano.</p>
+            <p class="cKuDlP">All assets you see here are of the highest quality, carefully designed with impressive detail, and optimized for game-ready projects. Whether you&#x27;re building a mystic village, a sacred temple for dragons, or an epic adventure through colorful, busy streets, this Megapack will give you the creative freedom to build your perfect world.</p>
+            </div>
+            </div>
+            <div class="ctT6Vw mt-5 mb-5">
+            </div>
+            <div class="row align-items-center">
+            <div class="col-lg-6 mb-5">
+            <div class="llcS3h">
+            <h4 class="TndBHT">MEGAPACK WITH INTERIORS</h4>
+            <ul>
+            <li>AAA Quality / All-in-one Megapack</li>
+            <li>Modular Buildings</li>
+            <li>Over 200 Unique Meshes</li>
+            <li>Immersive showcase map that adds depth and atmosphere to your scenes</li>
+            <li>6 House Prefab</li>
+            <li>Dragon</li>
+            <li>6 High-Detailed Statue</li>
+            <li>3 Heroic Statue</li>
+            <li>Top-Quality Foliage</li>
+            </ul>
+            </div>
+            </div>
+            <div class="col-lg-6">
+            <div class="JHyfy2">
+            <img alt="box-image" loading="lazy" width="1040" height="1439" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbox.6f8c5563.webp&amp;w=1080&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbox.6f8c5563.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbox.6f8c5563.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-10 offset-lg-1 mt-5">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="NKh7Nc YM7hza">
+            <img alt="chevron-left" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/chevron-left.a2a6a655.svg"/>
+            </div>
+            <div class="cDyDjQ eBZmcg">
+            <img alt="chevron-right" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/chevron-right.9c48b70d.svg"/>
+            </div>
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.1270de40.webp" fetchpriority="high" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoIAAUAAkA4JQBOgCPtCfbgAP20KaA4a1p/BszfphlMeNqudmdAh8MJOYTktp0T1qXUAAAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.1270de40.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.1270de40.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.c935a120.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.c935a120.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.c935a120.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.c935a120.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.c424c8f9.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.c424c8f9.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.c424c8f9.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.c424c8f9.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.b8427b61.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.b8427b61.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.b8427b61.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.b8427b61.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.cd524b4f.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.cd524b4f.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.cd524b4f.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.cd524b4f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.0be606b5.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.0be606b5.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.0be606b5.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.0be606b5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/07.b27f2f46.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.b27f2f46.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.b27f2f46.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.b27f2f46.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/08.d30cc68d.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.d30cc68d.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.d30cc68d.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.d30cc68d.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/09.38ad2185.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.38ad2185.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.38ad2185.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.38ad2185.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/10.f4fa5fdb.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.f4fa5fdb.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.f4fa5fdb.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.f4fa5fdb.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/11.d5d85f1b.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.d5d85f1b.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.d5d85f1b.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.d5d85f1b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/12.9cb73092.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.9cb73092.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.9cb73092.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.9cb73092.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/13.7844634e.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.7844634e.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.7844634e.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.7844634e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/14.e5c8abd0.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e5c8abd0.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e5c8abd0.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e5c8abd0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/15.c180ad0a.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.c180ad0a.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.c180ad0a.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.c180ad0a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/16.e1159c4c.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.e1159c4c.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.e1159c4c.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.e1159c4c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/17.0174c1c6.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.0174c1c6.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.0174c1c6.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.0174c1c6.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/18.ffcd91df.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.ffcd91df.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.ffcd91df.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.ffcd91df.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/19.5bd2c6c5.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.5bd2c6c5.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.5bd2c6c5.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.5bd2c6c5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/20.703e5fa8.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.703e5fa8.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.703e5fa8.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.703e5fa8.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/21.344ec70a.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.344ec70a.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.344ec70a.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.344ec70a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/22.658bc9bc.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.658bc9bc.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.658bc9bc.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.658bc9bc.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/23.aed65d4c.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F23.aed65d4c.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F23.aed65d4c.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F23.aed65d4c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-10 offset-lg-1 mt-5">
+            <h3 class="TndBHT P7LAzY mb-3">DEMONSTRATION VIDEO</h3>
+            <video width="100%" controls="">
+            <source src="https://cdn.leartesstudios.com/mythicalvolcanovillage-demonstration.mp4" type="video/mp4"/>
+            </video>
+            </div>
+            </div>
+            </div>
+            <div class="KoAfol _5xBc0C">
+            <img alt="asset img" loading="lazy" width="2967" height="750" decoding="async" data-nimg="1" style="color:transparent;height:100%;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 2&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoIAAIAAkA4JYwCdAD0gbJgAP732hul0VzD+rNL2vC0BfPctFIctQV9AAA=&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-assets.7009e0e5.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-assets.7009e0e5.webp&amp;w=3840&amp;q=100"/>
+            <div class="hyzNDe" style="background-color:rgba(0, 0, 0, 0.6)">
+            </div>
+            <div class="tYQ4dP">
+            <h2>ASSETS</h2>
+            </div>
+            </div>
+            <div class="container mb-5 mt-5 GmEpVX">
+            <div class="row mb-5">
+            <div class="col-lg-10 offset-lg-1">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="NKh7Nc">
+            <img alt="chevron-left" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/chevron-left.a2a6a655.svg"/>
+            </div>
+            <div class="cDyDjQ">
+            <img alt="chevron-right" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/chevron-right.9c48b70d.svg"/>
+            </div>
+            <div class="ErMs6U RfnKDB">
+            <img alt="/_next/static/media/01.57532f75.webp" fetchpriority="high" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnwAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAJ8oJQjAAAAN+b/yTAAAAA0PLChJwAAACzN3KcrAAAAAQwvWgAAAABWUDggLAAAAJABAJ0BKggABQACQDglnAAClkJewAD++yTKr39gWS+EnOQFP15KwgBQwEAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA RfnKDB">
+            <img alt="/_next/static/media/01.57532f75.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.57532f75.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/02.d6d8dc3c.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.d6d8dc3c.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.d6d8dc3c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/03.bf4a11c4.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.bf4a11c4.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.bf4a11c4.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.bf4a11c4.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/04.16755802.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.16755802.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.16755802.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.16755802.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/05.7ef23148.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.7ef23148.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.7ef23148.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/06.209ac02f.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.209ac02f.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.209ac02f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/07.a91f4522.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.a91f4522.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.a91f4522.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/08.74bc0496.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.74bc0496.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.74bc0496.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.74bc0496.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/09.cbcbbe2b.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.cbcbbe2b.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.cbcbbe2b.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.cbcbbe2b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/10.b3efec8f.webp" loading="lazy" width="2342" height="1317" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b3efec8f.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.b3efec8f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/11.2dd1bb74.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.2dd1bb74.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.2dd1bb74.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/12.d673735b.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.d673735b.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.d673735b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/13.5ad13821.webp" loading="lazy" width="3456" height="1944" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.5ad13821.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.5ad13821.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/14.b459242e.webp" loading="lazy" width="1105" height="1105" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.b459242e.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.b459242e.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.b459242e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/15.76c3e8fe.webp" loading="lazy" width="1269" height="1269" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.76c3e8fe.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.76c3e8fe.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.76c3e8fe.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/16.b38d6839.webp" loading="lazy" width="1228" height="1228" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.b38d6839.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.b38d6839.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F16.b38d6839.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/17.0434ece4.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.0434ece4.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.0434ece4.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F17.0434ece4.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/18.a449b1ce.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.a449b1ce.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F18.a449b1ce.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/19.2ba9c8f4.webp" loading="lazy" width="3264" height="1836" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.2ba9c8f4.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F19.2ba9c8f4.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/20.74632f74.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.74632f74.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F20.74632f74.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/21.584d668c.webp" loading="lazy" width="2880" height="1620" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.584d668c.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F21.584d668c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/22.3d529cc9.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.3d529cc9.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F22.3d529cc9.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/23.002bf4bd.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F23.002bf4bd.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F23.002bf4bd.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/24.45a69a05.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F24.45a69a05.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F24.45a69a05.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/25.02c4153e.webp" loading="lazy" width="2252" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F25.02c4153e.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F25.02c4153e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/26.46bd39c5.webp" loading="lazy" width="3686" height="1944" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F26.46bd39c5.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F26.46bd39c5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/27.b9fa5e80.webp" loading="lazy" width="4096" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F27.b9fa5e80.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F27.b9fa5e80.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/28.71745f21.webp" loading="lazy" width="4096" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F28.71745f21.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F28.71745f21.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/29.3f67bfbf.webp" loading="lazy" width="2867" height="1512" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F29.3f67bfbf.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F29.3f67bfbf.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/30.7025df35.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F30.7025df35.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F30.7025df35.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/31.94b85a53.webp" loading="lazy" width="2457" height="1296" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F31.94b85a53.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F31.94b85a53.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT RfnKDB">
+            <img alt="/_next/static/media/32.6978b98f.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F32.6978b98f.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F32.6978b98f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="row mb-5">
+            <div class="col-md-6">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.5981d481.webp" fetchpriority="high" width="1843" height="972" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 4&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnYAAABXRUJQVlA4WAoAAAAQAAAABwAAAwAAQUxQSCEAAAAAAAvF9PTCDwAAAJP//7MJAAAAGNnZGAAAAAAAqqoAAAAAVlA4IC4AAADwAQCdASoIAAQAAkA4JZwCdH8AFco5GoAA/v0c1P0F6f4aBINI5pZwlhWwEAAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z D6nl6z">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.5981d481.webp" loading="lazy" width="1843" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.5981d481.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.5d47c424.webp" loading="lazy" width="2252" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.5d47c424.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.5d47c424.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.4683ceb1.webp" loading="lazy" width="3276" height="1728" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.4683ceb1.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.4683ceb1.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.45c5bcf5.webp" loading="lazy" width="3276" height="1728" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.45c5bcf5.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.45c5bcf5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.623812c4.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.623812c4.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.623812c4.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.4d8503de.webp" loading="lazy" width="3072" height="1620" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.4d8503de.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.4d8503de.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.2456ba9e.webp" fetchpriority="high" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRoYAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAACKGkIMXAAAAKv///hMAAAAC8P/cAAAAAAC5/6UAAAAAABBDDgAAAABWUDggNgAAALABAJ0BKggABQACQDglnAAC7WDZCAAA/vsk27/95otUMatKnyIR0hO+5T6FYr0SS9CvlGAAAA==&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2456ba9e.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2456ba9e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z D6nl6z">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.2456ba9e.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2456ba9e.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2456ba9e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.eb7c68bc.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.eb7c68bc.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.eb7c68bc.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.7dca5d3b.webp" loading="lazy" width="1651" height="928" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.7dca5d3b.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.7dca5d3b.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.7dca5d3b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.0462c35c.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.0462c35c.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.0462c35c.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.0462c35c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.df713528.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.df713528.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.df713528.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.df713528.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.82ddbeba.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.82ddbeba.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.82ddbeba.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.82ddbeba.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="row mb-5">
+            <div class="col-md-12">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="NKh7Nc">
+            <img alt="chevron-left" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/chevron-left.a2a6a655.svg"/>
+            </div>
+            <div class="cDyDjQ">
+            <img alt="chevron-right" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/chevron-right.9c48b70d.svg"/>
+            </div>
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.c0dd197b.webp" fetchpriority="high" width="1843" height="972" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 4&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnYAAABXRUJQVlA4WAoAAAAQAAAABwAAAwAAQUxQSCEAAAAAAAAki2YAAAAAAD3/+wcAAAAATf//CwAAAABNvKEaAAAAVlA4IC4AAACwAQCdASoIAAQAAkA4JZwC7AD0gbJgAP76kqdiJVez1plOO7tYd4qHQreB+QAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.c0dd197b.webp" loading="lazy" width="1843" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.c0dd197b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.b4313d1a.webp" loading="lazy" width="2252" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.b4313d1a.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.b4313d1a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.1bda04fb.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.1bda04fb.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.1bda04fb.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.30e46632.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.30e46632.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.30e46632.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.ce19a293.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.ce19a293.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.ce19a293.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.5e8a26a6.webp" loading="lazy" width="3072" height="1620" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.5e8a26a6.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.5e8a26a6.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/07.e87dbccf.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.e87dbccf.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.e87dbccf.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/08.a514217b.webp" loading="lazy" width="2457" height="1296" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.a514217b.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.a514217b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/09.c6cd759e.webp" loading="lazy" width="2662" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.c6cd759e.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.c6cd759e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/10.72e66020.webp" loading="lazy" width="1966" height="1036" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.72e66020.webp&amp;w=2048&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.72e66020.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.72e66020.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/11.69cebb62.webp" loading="lazy" width="1966" height="1036" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.69cebb62.webp&amp;w=2048&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.69cebb62.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.69cebb62.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/12.3363e810.webp" loading="lazy" width="1966" height="1036" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.3363e810.webp&amp;w=2048&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.3363e810.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.3363e810.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/13.d1bccda7.webp" loading="lazy" width="4096" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.d1bccda7.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.d1bccda7.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/14.e7c3567c.webp" loading="lazy" width="4096" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e7c3567c.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e7c3567c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/15.9f2e2e83.webp" loading="lazy" width="4096" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.9f2e2e83.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.9f2e2e83.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.a227eee0.webp" fetchpriority="high" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRoQAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAAYIwAAAAA1yv7/1VUAAC9YqnwLWwAAFjkum001AAAAABsvAAAAAABWUDggNAAAALABAJ0BKggABQACQDglnALsANzLKgAA/vsmjEmftda9X5+EDcGcJVJMP9yNS+h6wFbawAA=&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.a227eee0.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.a227eee0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z D6nl6z">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.a227eee0.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.a227eee0.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.a227eee0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.25a7da5a.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.25a7da5a.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.25a7da5a.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.25a7da5a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.6ce58fe6.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.6ce58fe6.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.6ce58fe6.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.c3e2cd06.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.c3e2cd06.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.c3e2cd06.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.2735e5b4.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.2735e5b4.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.2735e5b4.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.2735e5b4.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.a9299e30.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a9299e30.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a9299e30.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.238467ea.webp" fetchpriority="high" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRogAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAABAAAAAAAAADLnW1XDQAAADVSm+Tz2cg1AAAAGwU9sgwAAAAAAAAIAABWUDggOAAAANABAJ0BKggABQACQDglnALsAQ5nybgAAP77dvQTRh1e4iTScBMw5xK2DFXJmIAHLAAqPKNijgAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.238467ea.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.238467ea.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z D6nl6z">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.238467ea.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.238467ea.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.238467ea.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.2a4e3edf.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.2a4e3edf.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.2a4e3edf.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.91695f0a.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.91695f0a.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.91695f0a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.425ce2a8.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.425ce2a8.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.425ce2a8.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.c8e49d3c.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.c8e49d3c.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.c8e49d3c.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.c8e49d3c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.a29bb181.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a29bb181.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a29bb181.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a29bb181.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="row mb-5">
+            <div class="col-md-6">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.0221197d.webp" fetchpriority="high" width="3072" height="1728" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnYAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAEAAAAAAAAM4s2ebTQAAAA2EEqsRgAAAAAAABwHAAAAAAAAAAAAAABWUDggJgAAADABAJ0BKggABQACQDglpAADcAD++OtPaDP/sSDi55ptADTXqNAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.0221197d.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.0221197d.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z D6nl6z">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.0221197d.webp" loading="lazy" width="3072" height="1728" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.0221197d.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.0221197d.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.fb6a581a.webp" loading="lazy" width="2496" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.fb6a581a.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.fb6a581a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.a2a9a06c.webp" loading="lazy" width="3072" height="1728" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.a2a9a06c.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.a2a9a06c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.3622a75e.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.3622a75e.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.3622a75e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.7b3d03ef.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.7b3d03ef.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.7b3d03ef.webp&amp;w=3840&amp;q=100"/>
+            </div
+            ><div class="zXBoYT">
+            <img alt="/_next/static/media/06.a6ce4f4f.webp" loading="lazy" width="2304" height="1296" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a6ce4f4f.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.a6ce4f4f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.982a9dea.webp" fetchpriority="high" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRoAAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAAAAAAAAAAcXnKElqABAF7//////wQAYv//////CAA6iJegrZgOAABWUDggMAAAALABAJ0BKggABQACQDglnAJ0AQPf4uAA/vfX8lB0QUt6ixiw1QI3/W9USrAKrpAAAA==&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z D6nl6z">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.982a9dea.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.982a9dea.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.7987163c.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.7987163c.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.7987163c.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.7987163c.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.58fb76c0.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.58fb76c0.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.58fb76c0.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.58fb76c0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.8b2dd2ca.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.8b2dd2ca.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.8b2dd2ca.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.8b2dd2ca.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.492d7288.webp" loading="lazy" width="2496" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.492d7288.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.492d7288.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.55c1a967.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.55c1a967.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.55c1a967.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.55c1a967.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="KoAfol _5xBc0C">
+            <img alt="vegetation" loading="lazy" width="1631" height="412" decoding="async" data-nimg="1" style="color:transparent;height:100%;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 2&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoIAAIAAkA4JZgCdAD0jHv8AAD+9rIAkdqMoexmrOX8ENPujHyGEHYVeu0hWi6jSqAAAA==&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-vegetation.9940c941.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-vegetation.9940c941.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-vegetation.9940c941.webp&amp;w=3840&amp;q=100"/>
+            <div class="hyzNDe" style="background-color:rgba(0, 0, 0, 0.6)">
+            </div>
+            <div class="tYQ4dP">
+            <h2>VEGETATION</h2>
+            </div>
+            </div>
+            <div class="container GmEpVX">
+            <div class="OGuxzD mb-5">
+            <button class="_6WN0Mc">TREE</button>
+            <button class="">IVY</button>
+            <button class="">BUSH &amp; FLOWER</button>
+            </div>
+            <div class="row d-flex justify-content-between g-5">
+            <div class="col-md-12">
+            <p class="PFT1mG">Jacaranda</p>
+            <div class="_2p9iMF">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.2e9944d5.webp" fetchpriority="high" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnwAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAE9lUgCAAATgb3dwBUAADd32rbSHQAAAAANTT8EAAAWJS9ZEQAAAABWUDggLAAAALABAJ0BKggABQACQDglpAADF+TvAgAA/vwBnli95UumGdGzYdhuxED5RAAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.2e9944d5.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.2e9944d5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.f8877ed2.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.f8877ed2.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.f8877ed2.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.f8877ed2.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.73c67815.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.73c67815.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.73c67815.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.73c67815.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.913a0efc.webp" loading="lazy" width="1344" height="756" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.913a0efc.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.913a0efc.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.913a0efc.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.6a37f1ac.webp" loading="lazy" width="1344" height="756" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.6a37f1ac.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.6a37f1ac.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.6a37f1ac.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.b063013f.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.b063013f.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.b063013f.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.b063013f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/07.9e789d42.webp" loading="lazy" width="1382" height="777" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.9e789d42.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.9e789d42.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.9e789d42.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/08.8b4f2e87.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.8b4f2e87.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.8b4f2e87.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.8b4f2e87.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/09.191a6677.webp" loading="lazy" width="1612" height="907" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.191a6677.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.191a6677.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.191a6677.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/10.388d7e04.webp" loading="lazy" width="1190" height="669" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.388d7e04.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.388d7e04.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.388d7e04.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/11.33ac5ecd.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.33ac5ecd.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.33ac5ecd.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.33ac5ecd.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/12.5490a164.webp" loading="lazy" width="1420" height="799" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.5490a164.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.5490a164.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.5490a164.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-12">
+            <p class="PFT1mG">Pine</p>
+            <div class="_2p9iMF">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.34ba41a2.webp" fetchpriority="high" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnwAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAABenv2UEAAAAgvLv4RIAAAAjNFqCCwAAAAAAMAcBAAAAAAApAAAAAABWUDggLAAAADABAJ0BKggABQACQDglnAADcAD++fvaralz2lTn5Sf1r7TK1B9VK26jQAAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.34ba41a2.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.34ba41a2.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.34ba41a2.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.34ba41a2.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.34ba41a2.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.65193b6e.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.65193b6e.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.65193b6e.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.f56f381d.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.f56f381d.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.f56f381d.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.ef4fdc25.webp" loading="lazy" width="1344" height="756" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.ef4fdc25.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.ef4fdc25.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.ef4fdc25.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.63903c88.webp" loading="lazy" width="1152" height="648" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.63903c88.webp&amp;w=1200&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.63903c88.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.63903c88.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.c1a4dcae.webp" loading="lazy" width="2880" height="1620" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.c1a4dcae.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.c1a4dcae.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/07.a3fb69d8.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.a3fb69d8.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.a3fb69d8.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/08.6bc0a06b.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.6bc0a06b.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.6bc0a06b.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.6bc0a06b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/09.e4c4dbf5.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.e4c4dbf5.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.e4c4dbf5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-12">
+            <p class="PFT1mG">Cypress</p>
+            <div class="_2p9iMF">
+            <div class="wQUaYj">
+            <div class="ErMs6U">
+            <img alt="/_next/static/media/01.6a0cf4b0.webp" fetchpriority="high" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnoAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAAAOgAAAAAAAAStAAAAAAAAFNAAAAAAAAAq4QAAAAAAABF/AAAAAABWUDggKgAAAJABAJ0BKggABQACQDglnAAClkIWAAD+/WxFEB9aqr0Moae00CmyoBbgAA==&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.6a0cf4b0.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.6a0cf4b0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA">
+            <img alt="/_next/static/media/01.6a0cf4b0.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.6a0cf4b0.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.6a0cf4b0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/02.92a51ba2.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.92a51ba2.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.92a51ba2.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/03.3857da52.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.3857da52.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.3857da52.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/04.d608ed16.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.d608ed16.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.d608ed16.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.d608ed16.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/05.cac97b1a.webp" loading="lazy" width="1728" height="972" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.cac97b1a.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.cac97b1a.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.cac97b1a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/06.04c16732.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.04c16732.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.04c16732.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/07.2d1e5ac0.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.2d1e5ac0.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.2d1e5ac0.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/08.17614e06.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.17614e06.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.17614e06.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT">
+            <img alt="/_next/static/media/09.7a7818ba.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.7a7818ba.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.7a7818ba.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="KoAfol _5xBc0C">
+            <img alt="statues" loading="lazy" width="2967" height="750" decoding="async" data-nimg="1" style="color:transparent;height:100%;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 2&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoIAAIAAkA4JZQCdEf/gbhw+UgA/OLp2Yxf5i7NCDBtOIGi+wrXwaxVmKH0CAAA&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-statues.e9deb67b.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-statues.e9deb67b.webp&amp;w=3840&amp;q=100"/>
+            <div class="hyzNDe" style="background-color:rgba(0, 0, 0, 0.6)"></div>
+            <div class="tYQ4dP">
+            <h2>STATUES</h2>
+            </div>
+            </div>
+            <div class="container mb-5 mt-5 GmEpVX">
+            <div class="row d-flex justify-content-between">
+            <div class="col-lg-10 offset-lg-1">
+            <p class="PFT1mG">Poseidon</p>
+            <div class="_2p9iMF">
+            <div class="wQUaYj">
+            <div class="ErMs6U _8rrb_s">
+            <img alt="/_next/static/media/01.3066a5ad.webp" fetchpriority="high" width="2496" height="1404" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRnoAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAAqIAAAAAAAACCyGQAAAAAAI9EnAAAAAACI52oAAAAAALPppgAAAABWUDggKgAAAJABAJ0BKggABQACQDglpAACx/K9wAD+++y5auNjHx4J4R3g3l1YAAAAAA==&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.3066a5ad.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.3066a5ad.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA _8rrb_s">
+            <img alt="/_next/static/media/01.3066a5ad.webp" loading="lazy" width="2496" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.3066a5ad.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.3066a5ad.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/02.486e8227.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.486e8227.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.486e8227.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.486e8227.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/03.14ed6d0b.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.14ed6d0b.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.14ed6d0b.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/04.2bb7a921.webp" loading="lazy" width="2496" height="1404" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.2bb7a921.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.2bb7a921.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/05.e37f5c59.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.e37f5c59.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.e37f5c59.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/06.7b8ce2cc.webp" loading="lazy" width="2112" height="1188" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.7b8ce2cc.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.7b8ce2cc.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/07.1cd4e5e2.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.1cd4e5e2.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.1cd4e5e2.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.1cd4e5e2.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/08.0edade67.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.0edade67.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.0edade67.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.0edade67.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/09.9e3779b2.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.9e3779b2.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.9e3779b2.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.9e3779b2.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/10.bc139e1d.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.bc139e1d.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.bc139e1d.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.bc139e1d.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/11.8c9fcf36.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.8c9fcf36.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.8c9fcf36.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.8c9fcf36.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/12.f96e7dd5.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.f96e7dd5.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.f96e7dd5.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.f96e7dd5.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/13.d5fd44b8.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.d5fd44b8.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.d5fd44b8.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F13.d5fd44b8.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/14.e68ecb57.webp" loading="lazy" width="1536" height="864" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e68ecb57.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e68ecb57.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F14.e68ecb57.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/15.eb27ae39.webp" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.eb27ae39.webp&amp;w=1920&amp;q=100 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.eb27ae39.webp&amp;w=3840&amp;q=100 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.eb27ae39.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-lg-10 offset-lg-1 mt-5">
+            <p class="PFT1mG">Minotaur</p>
+            <div class="_2p9iMF">
+            <div class="wQUaYj">
+            <div class="ErMs6U _8rrb_s">
+            <img alt="/_next/static/media/01.cf8ed6cc.webp" fetchpriority="high" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http%3A//www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 8 5&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;1&#x27;/%3E%3C/filter%3E%3Cimage preserveAspectRatio=&#x27;none&#x27; filter=&#x27;url(%23b)&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; height=&#x27;100%25&#x27; width=&#x27;100%25&#x27; href=&#x27;data:image/webp;base64,UklGRoAAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSCkAAAAAAAA5awAAAAAAAF35RwAAAAAQfNNhAAAAAAB7lBAAAAAAADwsFgAAAABWUDggMAAAAJABAJ0BKggABQACQDglpAACSr/gAAD++qB8wwnKpz7WDr2OyWe+sRG+D088mBAAAA==&#x27;/%3E%3C/svg%3E&quot;)" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.cf8ed6cc.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.cf8ed6cc.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            <div class="rk347Z AHAFQn">
+            <div class="zXBoYT IvMxfA _8rrb_s">
+            <img alt="/_next/static/media/01.cf8ed6cc.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.cf8ed6cc.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F01.cf8ed6cc.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/02.0f5eb1eb.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.0f5eb1eb.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F02.0f5eb1eb.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/03.6672816a.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.6672816a.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F03.6672816a.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/04.d1ff31a7.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.d1ff31a7.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F04.d1ff31a7.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/05.2691f649.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.2691f649.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F05.2691f649.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/06.3227ca3f.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.3227ca3f.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F06.3227ca3f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/07.5017f720.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.5017f720.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F07.5017f720.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/08.1791eeff.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.1791eeff.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F08.1791eeff.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/09.dda4fc09.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.dda4fc09.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F09.dda4fc09.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/10.5b76a81f.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.5b76a81f.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F10.5b76a81f.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/11.74d575ef.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.74d575ef.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F11.74d575ef.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            <div class="zXBoYT _8rrb_s">
+            <img alt="/_next/static/media/12.b36a0c0d.webp" loading="lazy" width="3840" height="2160" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.b36a0c0d.webp&amp;w=3840&amp;q=100 1x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F12.b36a0c0d.webp&amp;w=3840&amp;q=100"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="_2DDHA3">
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-2 col-md-12">
+            <div class="WoENv6">
+            <img alt="leartes" loading="lazy" width="200" height="63" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/logo-with-title.525779ef.svg"/>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+            <div class="tKtTQv">
+            <div class="PRgWCa">ABOUT US</div>
+            <ul>
+            <li>
+            <a href="/about">About</a>
+            </li>
+            <li>
+            <a href="https://discord.gg/CsD9fW5R5G" target="_blank" rel="noreferrer">Helpdesk</a>
+            </li>
+            <li>
+            <a href="/career">Career</a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+            <div class="tKtTQv">
+            <div class="PRgWCa">COMMUNITY</div>
+            <ul>
+            <li>
+            <a href="/portfolio">Portfolio</a>
+            </li>
+            <li>
+            <a href="/challenges">Challenges</a>
+            </li>
+            <li>
+            <a href="/blog">Blog</a>
+            </li>
+            <li>
+            <a href="https://discord.gg/CsD9fW5R5G" target="_blank" rel="noreferrer">Discord</a>
+            </li>
+            <li>
+            <a href="https://cosmos.leartesstudios.com/" target="_blank" rel="noreferrer">Shop</a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+            <div class="tKtTQv">
+            <div class="PRgWCa">CONTACT US</div>
+            <p>Business Hours<br/>Monday - Friday<br/> 10AM - 6PM</p>
+            <p>E-Mail<br/><a href="mailto:contact@leartesstudios.com">contact@leartesstudios.com</a></p>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+            <div class="k58LCs">
+            <div class="T5iOyX">
+            <input placeholder="Join our mailing list" value=""/>
+            <button type="button">Join</button>
+            </div>
+            <div class="IjhGDj">
+            <a href="https://www.artstation.com/leartesstudios" title="Artstation" target="_blank" rel="noreferrer">
+            <img alt="Artstation" loading="lazy" width="26" height="26" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/artstation.ecf44dda.svg"/>
+            </a>
+            <a href="https://twitter.com/LeartesStudios" title="Twitter" target="_blank" rel="noreferrer">
+            <img alt="Twitter" loading="lazy" width="26" height="26" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/twitter.3dfac1d8.svg"/>
+            </a>
+            <a href="https://discord.gg/CsD9fW5R5G" title="Discord" target="_blank" rel="noreferrer">
+            <img alt="Discord" loading="lazy" width="26" height="26" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/discord.31ec5cbb.svg"/>
+            </a>
+            <a href="https://www.youtube.com/@leartesstudios" title="Youtube" target="_blank" rel="noreferrer">
+            <img alt="Youtube" loading="lazy" width="26" height="26" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/youtube.f38281dd.svg"/>
+            </a>
+            <a href="https://www.instagram.com/leartesstudios" title="Instagram" target="_blank" rel="noreferrer">
+            <img alt="Instagram" loading="lazy" width="26" height="26" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/instagram.43c2079b.svg"/>
+            </a>
+            <a href="https://www.linkedin.com/company/leartes-studios" title="Linkedin" target="_blank" rel="noreferrer">
+            <img alt="Linkedin" loading="lazy" width="26" height="26" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/linkedin.c9f34eb1.svg"/>
+            </a>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="Cqnarb">
+            <div class="KRA_MN">
+            <span class="_1jr9d1">© 2023 </span>
+            <span>Leartes Studios Tasarım ve Yazılım Hizmetleri Ticaret Anonim Şirketi.</span>
+            <span class="NBqk2t"> All rights reserved.</span>
+            </div>
+            <div class="FJ2AF7">
+            <img alt="up" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/_next/static/media/up.5039fe9e.svg"/>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/mythical-volcano-village-megapack","query":{},"buildId":"OcOabf82QqUixJlbj9oI2","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+            <script>
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      ym(94296516, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+      });
+    </script>
+    <noscript>
+    <div>
+    <img src="https://mc.yandex.ru/watch/94296516" style="position:absolute;left:-9999px" alt=""/>
+    </div>
+    </noscript>
+    </body>
+    </html>
+
+
+
+
+
+

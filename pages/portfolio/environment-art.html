@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileImage" content="assets/images/pp-logo-270x270.png">
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/images/pp-logo-32x32.png" sizes="32x32">
+    <link rel="icon" href="/assets/images/pp-logo-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/assets/images/pp-logo-180x180.png">
+
+    <!-- Open Graph meta tagovi -->
+    <meta property="og:title" content="Paula Panijan - Game Art & Design Portfolio">
+    <meta property="og:description" content="Portfolio radova iz game art & designa. Modeliranje, teksturisanje i 3D grafika.">
+    <meta property="og:image" content="https://mojastranica.com/images/preview.jpg">
+    <meta property="og:url" content="https://mojastranica.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Paula Panijan Portfolio">
+
+    <!-- DNS Prefetch za brže učitavanje eksternih resursa -->
+    <link rel="dns-prefetch" href="http://cdn.jsdelivr.net/" />
+
+    <title>PPaula Panijan | Environment Art</title>
+    
+    <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='/assets/css/contact-form-7.css' type='text/css' media='all'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/common2.css"/>
+<link rel="stylesheet" id="slider-css" href="/assets/css/slider.css" type="text/css" media="all">
+<link rel='stylesheet' href='/assets/css/moj_1.css' type='text/css' media='all'>
+
+<link rel='stylesheet' id='all-css' href='/assets/css/all.css' type='text/css' media='all'> 
+<link rel='stylesheet' id='mediass-css' href='/assets/css/media.css' type='text/css' media='all'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="ball"></div>
+    <div class="cursor"></div>
+    <!-- Navigacijski bar sa logom -->
+    <header class="header">
+        <div class="header__desktop container">
+            <a href="/index.html" class="logo gsap_anima">
+                <img src="/assets/images/logo.png" alt="logo" />
+            </a>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html" class="navigation__link">Main</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html#about" class="navigation__link">About Me</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html#skills" class="navigation__link">My Skills</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a class="sevicesBtn navigation__link">Portfolio</a>
+                    </li>
+                    <li class="navigation__item gsap_anima">
+                        <a href="/index.html#contact" class="navigation__link">Contact </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger_services">
+                <div class="container burger_services__inner">
+                    <ul class="services__list">
+                        <li>                       
+							<a href="character-art.html">Character Art</a>
+                        </li>
+                        <li>
+                            <a href="environment-art.html">Environment Art</a>
+                        </li>
+                        <li>
+                            <a href="game-designs.html">Game Designs</a>
+                        </li>
+                        <li>
+                            <a href="sketchbook.html">SketchBook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__mobile">
+            <div class="container">
+                <a href="/index.html" class="logo logo__mobile">
+                    <img src="/assets/images/logo.png" alt="logo" />
+                </a>
+                <button class="menu close btn-hover">
+                    <svg width="40" height="40" viewBox="0 0 100 100">
+                        <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+                        <path class="line line2" d="M 20,50 H 80"></path>
+                        <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+                    </svg>
+                </button>
+                <div class="burger close">
+                    <div class="burger__inner">
+                        <ul class="navigation__list burger__list">
+                            <li class="navigation__item burger__item">
+                                <a href="/index.html" class="navigation__link">Main</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/index.html#about" class="navigation__link">About Me</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/index.html#skills" class="navigation__link">My Skills</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a class="navigation__link">Portfolio</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="/contact/index.html" class="navigation__link">Contact </a>
+                            </li>
+                        </ul>
+                        <ul class="navigation__list">
+                            <li class="navigation__item burger__item">                           
+								<a href="character-art.html" class="navigation__link">Character Art</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="environment-art.html" class="navigation__link">Environment Art</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="game-designs.html" class="navigation__link">Game Designs</a>
+                            </li>
+                            <li class="navigation__item burger__item">
+                                <a href="sketchbook.html" class="navigation__link">SketchBook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="burger__bg"></div>
+            </div>
+        </div>
+    </header>
+    <!-- popup kontakt forma -->
+    <div class="popup">
+        <div class="popup__inner">
+            <div class="closePopup btn-hover">
+                <img src="/assets/images/close-popup.svg" alt="" />
+            </div>
+            <h3 class="popup__title">Fill out the form to get in touch with me directly!</h3>
+            <p class="popup__text"></p>
+            <div class="form__wrap">
+                <div class="wpcf7 no-js" id="wpcf7-f81-o1" lang="en" dir="ltr">
+                    <div class="screen-reader-response">
+                        <p role="status" aria-live="polite" aria-atomic="true"></p>
+                        <ul></ul>
+                    </div>
+            </div>
+            <form action="mailto:ppanijan@gmail.com" method="post" 
+                class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+            <div style="display: none;">
+                <input type="hidden" name="_wpcf7" value="81" />
+                <input type="hidden" name="_wpcf7_version" value="5.8.5" />
+                <input type="hidden" name="_wpcf7_locale" value="en" />
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f81-o1" />
+                <input type="hidden" name="_wpcf7_container_post" value="0" />
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+            </div>
+            <div class="form__top">
+                <p>
+                <span class="wpcf7-form-control-wrap" data-name="nameItem">
+                    <input 
+                    size="40" 
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input letters" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your name" 
+                    value="" 
+                    type="text" 
+                    name="nameItem" 
+                    required
+                    />
+                </span>
+                <br />
+                <span class="wpcf7-form-control-wrap" data-name="emeilItem">
+                    <input 
+                    size="40" 
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your email" 
+                    value="" 
+                    type="text" 
+                    name="emeilItem" 
+                    required
+                    />
+                </span>
+                </p>
+            </div>
+            <p>
+                <span class="wpcf7-form-control-wrap" data-name="telItem">
+                <input 
+                    size="40" 
+                    class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel form__input numbers" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your phone number" 
+                    value="" 
+                    type="tel" 
+                    name="telItem" 
+                    required
+                />
+                </span>
+                <br />
+                <span class="wpcf7-form-control-wrap" data-name="messageItem">
+                <textarea 
+                    cols="40" 
+                    rows="10" 
+                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form__textarea" 
+                    aria-required="true" 
+                    aria-invalid="false" 
+                    placeholder="Your message" 
+                    name="messageItem" 
+                    required
+                ></textarea>
+                </span>
+                <br />
+                <input 
+                class="wpcf7-form-control wpcf7-submit has-spinner cf7btn" 
+                type="submit" 
+                value="Send" 
+                />
+            </p>
+            <div class="wpcf7-response-output" aria-hidden="true"></div>
+            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="imageOverlay" class="image-overlay">
+        <img id="overlayImage" src="" alt="Zoomed Image">
+    </div>
+
+<!-- početak sa tekstom u slici -->
+<main class="main portfolio">
+    <section class="hero-portfolio">
+        <div class="container hero-portfolio__inner">
+             <div class="KoAfol">
+                <img 
+                  src="/assets/images/portfolio-2.png" 
+                  alt="Character Art" 
+                  loading="lazy" 
+                  decoding="async" />
+            <div class="tYQ4dP">
+                <h2 class="portfolio__title title-white">Environment Art</h2>
+        </div>
+        <div class="hero__logo openPopup btn-hover">
+            <img class="hero__logo-bg" src="/assets/images/hero-loro-bg.png" alt="" />
+            <img class="hero__logo-content" src="/assets/images/hero-logo.png.webp" alt="" />
+        </div>
+    </section>
+
+    <section class="gallery" id="portfolio-1">
+        <div class="gellery__inner">
+            <div class="container gallery__top">
+                <h3 class="title">
+                    <span class="title-white">Desert</span> Planet
+                </h3>
+
+                <div class="container">
+                    <div class="news__content">
+                        <!-- Video -->
+                        <div class="news__item">
+                            <div class="news__img">
+                                <video
+                                    src="https://f003.backblazeb2.com/file/pportfolio/video/Environments_Final.mp4"
+                                    controls
+                                    playsinline
+                                    preload="auto"
+                                    width="640"
+                                    height="360">
+                                </video>
+                            </div> <!-- news__img -->
+
+                            <!-- Ikone ispod videa -->
+                            <div class="work-item-tags-container">
+                                <div class="work-item-tag" style="background-color: #0f579f"><span>zbrush</span></div>
+                                <div class="work-item-tag" style="background-color: #a60b0b"><span>maya</span></div>
+                                <div class="work-item-tag" style="background-color: #813772"><span>substance painter</span></div>
+                                <div class="work-item-tag" style="background-color: #813772"><span>university</span></div>
+                            </div> <!-- .work-item-tags-container -->
+
+                            <div class="clearfix"></div>
+
+                            <div class="news__text">
+                                <p>
+                                Desert planet inspired by Tatooine from Star Wars. This was my first big organic environment created in Unreal engine. </p>
+                                <p></p>All textures and models were created by me, I wanted the environment to look stylized and I achieved that by not focusing on stylizing textures but by creating a post processing effects that create an outline, and another one that creates cell shading. 
+                                </p>
+                            </div> <!-- .news__text -->
+                        </div> <!-- .news__item -->
+
+                        <div class="news__itemrg">
+                            <div class="news__imgrg">
+                                <div class="portfolio__item-left text-center">
+                                    <h4>Desert Planet</h4>
+                                </div>
+                                <div class="portfolio__item-left text-center" style="color: white;"></div>
+
+                                <div class="pp-facts-container">
+                                    <table style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="pp-facts-cell"><strong>Project Type</strong></td>
+                                                <td class="pp-facts-cell">University / individual project</td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="pp-facts-cell"><strong>Software Used</strong></td>
+                                                <td class="pp-facts-cell">Unreal Engine 4</td>
+                                            </tr> -->
+                                            <tr>
+                                                <td class="pp-facts-cell"><strong>Software Used</strong></td>
+                                                <td class="pp-facts-cell">Zbrush, Maya, Substance Painter</td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="pp-facts-cell"><strong>Primary Role(s)</strong></td>
+                                                <td class="pp-facts-cell">Gameplay programming</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div> <!-- .pp-facts-container -->
+
+                                <div class="work-item-desc-container">
+                                    <table class="work-item-desc" style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"></td>
+                                                <!-- <td class="work-item-contrib-cell">Highlights:</td> -->
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">npr. moj prvi model</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">još nesto o projektu</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">radila sam na...</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">koristila sam...</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div> <!-- .work-item-desc-container -->
+                            </div> <!-- .news__imgrg -->
+                        </div> <!-- .news__itemrg -->
+                    </div> <!-- .news__content -->
+                </div> <!-- .container -->
+
+                <div class="gallery__top-controls">
+                    <div class="tabs__control">
+                        <div class="tab__btn active btn-hover">SCREENGRABS</div>
+                        <div class="tab__btn btn-hover">TURNTABLES</div>
+                    </div>
+                    <div class="slider__control">
+                        <div class="portolio__prew portolio__prew1 grey__button btn-hover">
+                            <img src="/assets/images/grey-btn-arrow.svg" alt="" />
+                        </div>
+                        <div class="portolio__next portolio__next1 grey__button btn-hover">
+                            <img src="/assets/images/grey-btn-arrow.svg" alt="" />
+                        </div>
+                    </div>
+                </div>  <!-- .gallery__top-controls -->
+            </div> <!-- .gallery__top -->
+            <div class="gallery__bottom">
+                <div class="swiper gallery__slider gallery__slider1 active tab-2678x1696">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe1.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe2.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe3.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe4.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe5.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe6.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe7.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/dpe8.png" alt="" /></div>
+                    </div>
+                </div>
+
+                <div class="swiper gallery__slider gallery__slider1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/DPEGun.mp4" controls poster="/assets/images/video-thumb1.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/DPESkeleton.mp4" controls poster="/assets/images/video-thumb2.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/DPETent.mp4" controls poster="/assets/images/video-thumb3.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .gallery__bottom -->
+        </div> <!-- .gellery__inner -->
+    </section>
+
+    <section class="gallery" id="portfolio-2">
+        <div class="gellery__inner">
+            <div class="container gallery__top">
+                <h3 class="title"><span class="title-white">Underwater</span> Laboratory</h3>
+
+                <div class="container">
+                    <div class="news__content">
+                        <!-- Video -->
+                        <div class="news__item">
+                            <div class="news__img">
+                                <video
+                                    src="https://f003.backblazeb2.com/file/pportfolio/video/UnderwaterResearchStation.mp4"
+                                    controls
+                                    playsinline
+                                    preload="auto"
+                                    width="640"
+                                    height="360">
+                                </video>
+                            </div> <!-- news__img -->
+
+                            <!-- Ikone ispod videa -->
+                            <div class="work-item-tags-container">
+                                <div class="work-item-tag" style="background-color: #0f579f"><span>zbrush</span></div>
+                                <div class="work-item-tag" style="background-color: #a60b0b"><span>maya</span></div>
+                                <div class="work-item-tag" style="background-color: #813772"><span>substance painter</span></div>
+                                <div class="work-item-tag" style="background-color: #813772"><span>university</span></div>
+                            </div> <!-- .work-item-tags-container -->
+
+                            <div class="clearfix"></div>
+
+                            <div class="news__text">
+                                <p>
+                                This project features an underwater laboratory built in Unreal Engine, designed as an exploration of a setting unfamiliar to me. I wanted to challenge myself by working with underwater lighting, effects, and atmosphere, while focusing on creating a believable sci-fi environment. The scene is made up of custom hard-surface interior models, with attention to detail in materials, Niagara systems and overall mood to capture the feeling of being deep below the ocean's surface. 
+                                </p>
+                            </div> <!-- .news__text -->
+                        </div> <!-- .news__item -->
+
+                        <div class="news__itemrg">
+                            <div class="news__imgrg">
+                                <div class="portfolio__item-left text-center">
+                                    <h4>Underwater Laboratory</h4>
+                                </div>
+                                <div class="portfolio__item-left text-center" style="color: white;"></div>
+
+                                <div class="pp-facts-container">
+                                    <table style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="pp-facts-cell"><strong>Project Type</strong></td>
+                                                <td class="pp-facts-cell">University / individual project</td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="pp-facts-cell"><strong>Software Used</strong></td>
+                                                <td class="pp-facts-cell">Unreal Engine 4</td>
+                                            </tr> -->
+                                            <tr>
+                                                <td class="pp-facts-cell"><strong>Software Used</strong></td>
+                                                <td class="pp-facts-cell">Zbrush, Maya, Substance Painter</td>
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="pp-facts-cell"><strong>Primary Role(s)</strong></td>
+                                                <td class="pp-facts-cell">Gameplay programming</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div> <!-- .pp-facts-container -->
+
+                                <div class="work-item-desc-container">
+                                    <table class="work-item-desc" style="margin: auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"></td>
+                                                <!-- <td class="work-item-contrib-cell">Highlights:</td> -->
+                                            </tr>
+                                            <!-- <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">npr. moj prvi model</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">još nesto o projektu</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">radila sam na...</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="work-item-contrib-cell"><i class="fas fa-check" aria-hidden="true"></i></td>
+                                                <td class="work-item-contrib-cell">koristila sam...</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div> <!-- .work-item-desc-container -->
+                            </div> <!-- .news__imgrg -->
+                        </div> <!-- .news__itemrg -->
+                    </div> <!-- .news__content -->
+                </div> <!-- .container -->
+
+                <div class="gallery__top-controls">
+                    <div class="tabs__control">
+                        <div class="tab__btn active btn-hover">SCREENGRABS</div>
+                        <div class="tab__btn btn-hover">RENDERS</div>
+                        <div class="tab__btn btn-hover">TURNTABLES</div>
+                    </div>
+
+                    <div class="slider__control">
+                        <div class="portolio__prew portolio__prew2 grey__button btn-hover">
+                            <img src="/assets/images/grey-btn-arrow.svg" alt="" />
+                        </div>
+                        <div class="portolio__next portolio__next2 grey__button btn-hover">
+                            <img src="/assets/images/grey-btn-arrow.svg" alt="" />
+                        </div>
+                    </div>
+
+                </div> <!-- .gallery__top-controls -->
+            </div> <!-- .gallery__top -->
+            <div class="gallery__bottom">
+                <div class="swiper gallery__slider gallery__slider2 active tab-3310x1878">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/1Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/1unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/2Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/2unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/3Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/3unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/4Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/4unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/5Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/5unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/6Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/6unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/7Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/7unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/8Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/8unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/9Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/9unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/10Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/10unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <div class="image-compare">
+                                <img src="/assets/images/11Lit.png" class="before" alt="Prva verzija" />
+                                <img src="/assets/images/11unlit.png" class="after" alt="Druga verzija" />
+                                <div class="slider-bar"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper gallery__slider gallery__slider2 tab-2000x2000">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/UWChandilier.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/UWDesk.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/UWGlobe.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/UWHatch.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/UWQuill.png" alt="" /></div>
+                        <div class="swiper-slide gallery__item btn-hover"><img src="/assets/images/UWTeaPot.png" alt="" /></div>
+                    </div>
+                </div>
+                <div class="swiper gallery__slider gallery__slider2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/UWBedlamp_Turntable.mp4" controls poster="/assets/images/UWBedlamp_Turntable.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/UWMermaid_Turntable.mp4" controls poster="/assets/images/UWMermaid_Turntable.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/UWRoomDivider_TurnTable.mp4" controls poster="/assets/images/UWRoomDivider_TurnTable.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="/https://f003.backblazeb2.com/file/pportfolio/video/UWTable-TurnTable.mp4" controls poster="/assets/images/UWTable-TurnTable.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                        <div class="swiper-slide gallery__item btn-hover">
+                            <video src="https://f003.backblazeb2.com/file/pportfolio/video/UWTeaCup_Turntable.mp4" controls poster="/assets/images/UWTeaCup_Turntable.png"
+                                style="width:100%;height:326px;object-fit:cover;"></video>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .gallery__bottom -->
+        </div> <!-- .gellery__inner -->
+    </section>
+
+    <div class="gallery__big">
+            <img src="#" alt="">
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__item">
+                <a href="index.html" class="footer__logo">
+                    <img src="/assets/images/logo.png.webp" alt="" />
+                </a>
+                <a class="footer__link" href="mailto:ppanijan@gmail.com">ppanijan@gmail.com</a>
+                <p>
+                    Clonmel, IRELAND<br />
+                </p>
+            </div>
+            <div class="footer__item footer__nav">
+                <p>Exploring My World</p>
+                <a href="index.html" class="footer__link">Main</a>
+                <a href="/index.html#about" class="footer__link">About Me</a>
+                <a href="/index.html#skills" class="footer__link">My Skills</a>
+                <a href="/index.html#portfolio" class="footer__link">Portfolio</a>
+                <a href="/index.html#contact" class="footer__link">Contact</a>
+                <a href="/index.html#art_action" class="footer__link">Game Art in Action</a>
+            </div>
+            <div class="footer__item">
+                <p>Portfolio</p>
+                <a href="character-art.html">Character Art</a>
+                <a href="environment-art.html">Environment Art</a>
+                <a href="game-designs.html">Game Designs</a>
+                <a href="sketchbook.html">SketchBook</a>
+            </div>
+            <div class="footer__item">
+                <p>©2025 All rights reserved. Paula Panijan</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" id="no-right-click-images-admin-js-extra">
+/* <![CDATA[ */
+var nrci_opts = {"gesture":"0","drag":"0","touch":"0","admin":"0"};
+/* ]]> */
+</script>
+<!-- <link rel='stylesheet' id='cta-css-css' href='assets/css/cta.css' type='text/css' media='all' /> -->
+
+<script type="text/javascript" src="/assets/js/no-right-click-images-frontend.js" id="no-right-click-images-admin-js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+<script src="/assets/js/swiper-bundle.min.js"></script>
+<script src="/assets/js/imask.js"></script>
+<script src="/assets/js/SmoothScroll.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/blocks.js"></script>
+</body>
+
+</html>
