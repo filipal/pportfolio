@@ -211,7 +211,7 @@
     right: 339px;
   }
   .burger_services {
-    left: 804px;
+    left: 1100px;
   }
 }
 @media (max-width: 1440px) {
@@ -308,7 +308,7 @@
     margin-top: 5px;
   }
   .burger_services {
-    left: 757px;
+    left: 1000px;
   }
   .logo {
     max-width: 60px;

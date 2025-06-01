@@ -183,7 +183,7 @@
 
 
 .custom-slider-vertical {
-  max-width: 800px;
+  max-width: 600px;
   margin: 32px auto;
   padding: 24px 16px;
   border-radius: 12px;
@@ -240,6 +240,14 @@
   display: block;
 }
 
+.custom-slider._2p9iMF .main-slide {
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto 16px auto;
+  display: block;
+}
+
 
 /* Responsive za mobitele */
 @media (max-width: 600px) {
@@ -277,3 +285,4 @@
   background: #222;
   object-fit: contain; /* Ovo dodatno osigurava proporcije */
 }
+

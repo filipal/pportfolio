@@ -36,139 +36,6 @@ if ('scrollRestoration' in history) {
   history.scrollRestoration = 'auto';
 }
 
-// function initTabbedGallery() {
-//   const galleryData = {
-//     portfolio1: {
-//       screengrabs: [
-//         "/assets/images/dpe1.png",
-//         "/assets/images/dpe2.png",
-//         "/assets/images/dpe3.png",
-//         "/assets/images/dpe4.png",
-//         "/assets/images/dpe5.png",
-//         "/assets/images/dpe6.png",
-//         "/assets/images/dpe7.png",
-//         "/assets/images/dpe8.png"
-//       ],
-//       turntables: [
-//         { type: "video", src: "/assets/video/DPEGun.mp4", poster: "/assets/images/video-thumb1.png" },
-//         { type: "video", src: "/assets/video/DPESkeleton.mp4", poster: "/assets/images/video-thumb2.png" },
-//         { type: "video", src: "/assets/video/DPETent.mp4", poster: "/assets/images/video-thumb3.png" }
-//       ]
-//     },
-
-//     portfolio2: {
-//       screengrabs: [
-//         { type: "compare", before: "/assets/images/1Lit.png", after: "/assets/images/1unlit.png" },
-//         { type: "compare", before: "/assets/images/2Lit.png", after: "/assets/images/2unlit.png" },
-//         { type: "compare", before: "/assets/images/3Lit.png", after: "/assets/images/3unlit.png" },
-//         { type: "compare", before: "/assets/images/4Lit.png", after: "/assets/images/4unlit.png" },
-//         { type: "compare", before: "/assets/images/5Lit.png", after: "/assets/images/5unlit.png" },
-//         { type: "compare", before: "/assets/images/6Lit.png", after: "/assets/images/6unlit.png" },
-//         { type: "compare", before: "/assets/images/7Lit.png", after: "/assets/images/7unlit.png" },
-//         { type: "compare", before: "/assets/images/8Lit.png", after: "/assets/images/8unlit.png" },
-//         { type: "compare", before: "/assets/images/9Lit.png", after: "/assets/images/9unlit.png" },
-//         { type: "compare", before: "/assets/images/10Lit.png", after: "/assets/images/10unlit.png" },
-//         { type: "compare", before: "/assets/images/11Lit.png", after: "/assets/images/11unlit.png" }
-//       ],
-//       randers: [
-//         "/assets/images/UWChandilier.png",
-//         "/assets/images/UWDesk.png",
-//         "/assets/images/UWGlobe.png",
-//         "/assets/images/UWHatch.png",
-//         "/assets/images/UWQuill.png",
-//         "/assets/images/UWTeaPot.png"
-//       ],
-//       turntables: [
-//         { type: "video", src: "/assets/video/UWBedlamp_Turntable.mp4", poster: "/assets/images/UWBedlamp_Turntable.png" },
-//         { type: "video", src: "/assets/video/UWMermaid_Turntable.mp4", poster: "/assets/images/UWMermaid_Turntable.png" },
-//         { type: "video", src: "/assets/video/UWRoomDivider_TurnTable.mp4", poster: "/assets/images/UWRoomDivider_TurnTable.png" },
-//         { type: "video", src: "/assets/video/UWTable-TurnTable.mp4", poster: "/assets/images/UWTable-TurnTable.png" },
-//         { type: "video", src: "/assets/video/UWTeaCup_Turntable.mp4", poster: "/assets/images/UWTeaCup_Turntable.png" }
-//       ]
-//     }
-//   };
-//   function loadGalleryContent(galleryId, tabId) {
-//     const container = document.querySelector(`#${galleryId} .gallery__slider.${galleryId}-${tabId}`);
-//     if (!container) return;
-
-//     const wrapper = container.querySelector(".swiper-wrapper");
-//     if (!wrapper) return;
-
-//     wrapper.innerHTML = "";
-
-//     const slides = galleryData[galleryId][tabId];
-//     slides.forEach((item) => {
-//       let slide = "";
-
-//       if (typeof item === "string") {
-//         slide = `<div class="swiper-slide gallery__item btn-hover"><img src="${item}" alt="" /></div>`;
-//       } else if (item.type === "video") {
-//         slide = `<div class="swiper-slide gallery__item btn-hover">
-//                     <video src="${item.src}" poster="${item.poster}" controls style="width:100%;height:326px;object-fit:cover;"></video>
-//                 </div>`;
-//       } else if (item.type === "compare") {
-//         slide = `<div class="swiper-slide gallery__item btn-hover">
-//                     <div class="image-compare">
-//                       <img src="${item.before}" class="before" alt="Prva verzija" />
-//                       <img src="${item.after}" class="after" alt="Druga verzija" />
-//                       <div class="slider-bar"></div>
-//                       <input type="range" min="0" max="100" value="50" class="slider-range" aria-label="Povuci za usporedbu">
-//                     </div>
-//                 </div>`;
-//       }
-
-//       wrapper.insertAdjacentHTML("beforeend", slide);
-//     });
-
-//     if (container.swiper) {
-//       container.swiper.destroy(true, true);
-//     }
-
-//     new Swiper(container, {
-//       loop: true,
-//       speed: 600,
-//       slidesPerView: 2.5,
-//       spaceBetween: 20,
-//       centeredSlides: true,
-//       navigation: {
-//         nextEl: `#${galleryId} .portolio__next1`,
-//         prevEl: `#${galleryId} .portolio__prew1`,
-//       },
-//       breakpoints: {
-//         375: { slidesPerView: 1.2, centeredSlides: false },
-//         500: { slidesPerView: 2 },
-//         788: { slidesPerView: 2, spaceBetween: 20 },
-//         1200: { slidesPerView: 2.5, spaceBetween: 20, centeredSlides: false },
-//         1930: { slidesPerView: "auto", spaceBetween: 20, centeredSlides: false },
-//       },
-//     });
-//   }
-
-//   // postavljanje event listenera na tabove
-//   document.querySelectorAll(".tab__btn").forEach((btn) => {
-//     btn.addEventListener("click", () => {
-//       const galleryId = btn.closest(".gallery").id;
-//       const tabId = btn.dataset.tab;
-
-//       const allBtns = btn.closest(".tabs__control").querySelectorAll(".tab__btn");
-//       allBtns.forEach((el) => el.classList.remove("active"));
-//       btn.classList.add("active");
-
-//       const allSliders = document.querySelectorAll(`#${galleryId} .gallery__slider`);
-//       allSliders.forEach((slider) => slider.classList.remove("active"));
-
-//       const targetSlider = document.querySelector(`#${galleryId} .${galleryId}-${tabId}`);
-//       if (targetSlider) targetSlider.classList.add("active");
-
-//       loadGalleryContent(galleryId, tabId);
-//     });
-//   });
-
-//   // Učitaj početni sadržaj za svaki slider
-//   loadGalleryContent("portfolio1", "screengrabs");
-//   loadGalleryContent("portfolio2", "screengrabs");
-// }
-
 function initSketchGalleryZoom() {
   const sketchImages = document.querySelectorAll(".model-placeholder-gallery img");
 
@@ -205,8 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initMainSlideZoom();
   initSketchGalleryZoom()
   initImageCompareSliders();
-  // initGallerySwipers()
-  // initTabbedGallery();
+  initCustomSliderZoom()
 });
 
 // ===== FUNKCIJE =====
@@ -264,7 +130,6 @@ function initBurgerServicesMenu() {
     }
   });
 }
-
 
 function initBurgerMobileMenu() {
   bufButton = window.innerWidth < 768 ? "-118px" : "-140px";
@@ -825,6 +690,28 @@ function initImageCompareSliders() {
     });
   });
 }
+
+function initCustomSliderZoom() {
+  const mainSlideImages = document.querySelectorAll(".custom-slider .main-slide, .custom-slider-vertical .main-slide");
+
+  mainSlideImages.forEach(img => {
+    img.style.cursor = "zoom-in";
+    img.addEventListener("click", function () {
+      zoomedImage.src = this.src;
+
+      // Dodaj posebnu klasu za custom-slider zoom
+      zoomedImage.classList.add("custom-slider-zoom");
+
+      zoomContainer.classList.remove("hidden");
+    });
+  });
+
+  // Kad se zoom zatvori, makni klasu (za svaki slučaj)
+  zoomContainer.addEventListener("click", () => {
+    zoomedImage.classList.remove("custom-slider-zoom");
+  });
+}
+
 
 
 

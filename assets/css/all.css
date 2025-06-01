@@ -898,7 +898,7 @@ html, body {
 .services__nav .line {
   width: 100%;
   height: 1px;
-  background-image: url(../images/service-line.png);
+  background-image: url(../images/service-line.webp);
   position: absolute;
   z-index: 1;
   margin-top: -12px;
@@ -1561,10 +1561,7 @@ form button {
 .footer__item:nth-child(4) {
   align-items: end;
 }
-.mkey {
-  display: flex;
-  gap: 5px;
-}
+
 .footer__link {
   transition: 0.4s;
 }
@@ -2021,7 +2018,7 @@ canvas {
   border-top: 1px solid #959595;
 }
 .develop__left {
-  background-image: url(/assets/images/logo-wedevfor.png);
+  background-image: url(/assets/images/logo-wedevfor.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 180px;
@@ -2044,7 +2041,7 @@ canvas {
 .develop__right {
   display: flex;
   flex-wrap: wrap;
-  background-image: url(../images/develop-lines.png);
+  background-image: url(../images/develop-lines.webp);
   background-repeat: no-repeat;
   background-position: 0 40px;
   row-gap: 31px;
@@ -2990,26 +2987,12 @@ a, i {
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
-/*svg path {
-  fill: transparent;
-  stroke: #fff;
-  stroke-width: 0.1;
-  stroke-dasharray: 50;
-  stroke-dashoffset: 50;
-  animation: textAnimation 4s ease-in-out 1 forwards;
+/* Samo kada je slika iz custom slidera */
+.zoomed-img-container img.custom-slider-zoom {
+  max-width: 98%;
+  max-height: 98%;
 }
-@keyframes textAnimation {
-  0% {
-    stroke-dashoffset: 50;
-  }
-  80% {
-    fill: transparent;
-  }
-  100% {
-    fill: #fff;
-    stroke-dashoffset: 0;
-  }
-}*/
+
 .banner .title {
   position: absolute;
   top: 0;
@@ -3392,4 +3375,21 @@ model-viewer {
   pointer-events: auto;
 }
 
+.creature-poster {
+  padding: 64px 0;
+  /*background-color: #f9f9f9;  ili neka boja koja odgovara ostatku stranice */
+  text-align: center;
+}
 
+.creature-poster img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .creature-poster img {
+    max-width: 100%;
+  }
+}

@@ -712,7 +712,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const fotos = [
       "pages/wp-content/uploads/2024/02/game-art-scaled.jpg",
       "pages/wp-content/uploads/2024/02/porting-scaled.jpg",
-      "pages/wp-content/uploads/2024/02/anima-vfx.png",
+      "pages/wp-content/uploads/2024/02/anima-vfx.webp",
       "pages/wp-content/uploads/2024/02/staff-scaled.jpg",
       "pages/wp-content/uploads/2024/02/testing.jpg",
       "pages/wp-content/uploads/2024/02/game-dev-scaled.jpg",
